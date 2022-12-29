@@ -1,0 +1,36 @@
+/* using tag selector */
+
+h1{
+    color: blueviolet;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+h2{
+    color: darkcyan;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+/* id selector */
+
+#he{
+    color: #ff0022;
+   }
+
+/* class selector */
+
+.common{
+         color: aqua;
+       }
+
+ /* universal selector */
+/* 
+ *{
+    text-align: center;
+ } */
+
+ /* grouping selector */
+
+ h3,h4,p{
+
+    text-align: center ; color: darkolivegreen;
+ }

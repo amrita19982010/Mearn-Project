@@ -1,0 +1,35 @@
+div{
+    background-color: aqua;
+    width:300px ;
+    height: 300px;
+    color: aliceblue;
+    
+    border: 10px outset crimson;
+    border-radius: 50px 30px 20px 10px;
+    border-radius: 50%;
+    /* None,solid,ridge,dotted,dashed,double,groove,inset,outset */
+
+    padding: 50px;
+
+   }
+
+   #one{
+
+    background-color: aqua;
+    width:300px ;
+    height: 300px;
+    color: aliceblue;
+
+    border: 10px outset crimson;
+    border-radius: 0px;
+
+    padding: 50px 30px 40px 20px;
+
+    margin: 50px;
+
+    text-decoration: underline;
+    text-shadow: 3px 8px 3px;
+
+
+   }
+
