@@ -1,0 +1,480 @@
+/* body{
+    background-image: url(https://i.postimg.cc/7LRZfCyx/Untitled-design-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  sans-serif;
+}
+
+
+section{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://i.postimg.cc/7LRZfCyx/Untitled-design-2.png);
+    background-size: cover;
+    background-position: center;
+}
+
+section nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 0 10px #f1f507;
+    background: #fff;
+    position: fixed;
+    left: 0;
+    z-index: 100;
+}
+
+section nav .logo img{
+    width: 100px;
+    cursor: pointer;
+    margin: 8px 0;
+}
+
+section nav ul{
+    list-style: none;
+}
+
+section nav li{
+    display: inline-block;
+    padding: 0 10px;
+}
+
+section nav li a{
+    text-decoration: none;
+    color: #000;
+     
+}
+
+section nav li a:hover{
+    color: #f1f507;
+    
+}
+
+section nav .social_icon i:hover{
+    color: #f1f507;
+    cursor: pointer;
+
+}
+
+section .main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: 10%;
+
+}
+
+section .main h1{
+    position: relative;
+    font-size: 55px;
+    top: 80px;
+    left: 25px;
+
+}
+
+section .main h1 span{
+    color: #f1f507;
+}
+
+section .main p{
+    width: 650px;
+    text-align: justify;
+    line-height: 22px;
+    position: relative;
+    top: 125px;
+    left: 25px;
+}
+
+section .main .main_tag .main_btn{
+    background: #f1f507;
+    padding: 10px 20px ;
+    position: relative;
+    top: 200px;
+    left: 25px;
+    color: #fff;
+    text-decoration: none;
+}
+
+section .main .main_img img{
+    width:780px ;
+    position: relative;
+    top:90px ;
+    left: 20;
+}
+
+/* services */
+
+.services{
+    width: 100%;
+    height: auto;
+    margin: 35px 0;
+}
+
+.services .services_box{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.services .services_box .services_cards{
+    text-align: center;
+    width: 310px;
+    height: auto;
+    box-shadow: 0 0 8px #f1f507;
+    padding: 15px 10px;
+}
+
+.services .services_box .services_cards i{
+    color: #f1f507;
+    font-size: 45px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.services .services_box .services_cards h3{
+    margin-bottom: 10px;
+}
+
+
+/* about */
+
+.about{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about .about-image img{
+    width: 880px;
+}
+
+.about .about_tag h1{
+    font-size: 50px;
+    position: relative;
+    bottom: 35px;
+}
+
+.about .about_tag p{
+    line-height: 22px;
+    width: 650px;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+.about .about_tag .about_btn{
+    padding: 10px 20px;
+    background: #f1f507;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    top: 50px;
+}
+
+
+/* Books */
+
+.featured_books{
+    width: 100%;
+    height: 100vh;
+    padding: 70px 0;
+}
+
+.featured_books h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-size: 45px;
+
+}
+
+.featured_books .featured_book_box{
+    width: 95%;
+    height: 60vh;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    overflow: hidden;overflow-x: scroll;
+}
+
+.featured_books .featured_book_box .featured_book_card{
+    width: 250px;
+    height: 420px;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #919191;
+    margin: auto 20px;
+
+}
+
+.featured_books .featured_book_box .featured_book_card:hover{
+    box-shadow: 0 0 5px #f1f507;
+}
+
+.featured_books .featured_book_box .featured_book_card .featured_book_img img{
+    width: 150px;
+}
+
+.featured_books .featured_book_box .featured_book_card .featured_book_tag h2{
+    margin: 12px;
+}
+
+.featured_books .featured_book_box .featured_book_card .featured_book_tag .writer{
+    color: #919191;
+}
+
+.featured_books .featured_book_box .featured_book_card .featured_book_tag .categories{
+    color: #f1f507;
+    margin-top: 8px;
+}
+
+.featured_books .featured_book_box .featured_book_card .featured_book_tag .book_price{
+    margin-top: 8px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.featured_books .featured_book_box .featured_book_card .featured_book_tag .book_price sub{
+    font-weight: 100;
+    padding: 0 5px;
+}
+
+.featured_books .featured_book_box .featured_book_card .featured_book_tag .f_btn{
+    padding: 8px 20px;
+    border: 2px solid #f1f507;
+    text-decoration: none;
+    color: #000;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 8px rgba(0,0,0, 0.2);
+}
+
+::-webkit-scrollbar-thumb{
+    background: #f1f507;
+    border-radius: 10px;
+}
+
+
+/* Arrivals */
+
+.arrivals{
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 35px;
+}
+
+.arrivals h1{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.arrivals .arrivals_box{
+    width: 95%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 25px 0
+}
+
+.arrivals .arrivals_box .arrivals_card{
+    width: 250px;
+    height: 340px;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #919191;
+    margin: auto 20px;
+}
+
+.arrivals .arrivals_box .arrivals_card:hover{
+    box-shadow: 0 0 5px #f1f507;
+}
+
+.arrivals .arrivals_box .arrivals_card .arrivals_image{
+    width: 150px;
+    height: 220px;
+    margin: 0 auto;
+    cursor: pointer;
+    box-shadow: 0 0 8px rgba(0,0,0, 0.5);
+    overflow: hidden;
+}
+.arrivals .arrivals_box .arrivals_card .arrivals_image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: 0.3s;
+}
+
+.arrivals .arrivals_box .arrivals_card:hover .arrivals_image img{
+    transform: scale(1.1);
+}
+
+.arrivals .arrivals_box .arrivals_card .arrivals_tags p{
+    font-family: queen of camelot;
+    font-size: 20px;
+    margin: 8px 0;
+}
+
+.arrivals .arrivals_box .arrivals_card .arrivals_tags .arrivals_icon{
+    color: #f1f507;
+    margin-bottom: 18px;
+}
+
+.arrivals .arrivals_box .arrivals_card .arrivals_tags .arrivals_btn{
+    padding: 8px 20px;
+    border: 2px solid #f1f507;
+    text-decoration: none;
+    color: #000;
+}
+
+
+/* Review */
+
+.reviews{
+    width: 100%;
+    height: auto;
+}
+
+.reviews h1{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 55px;
+}
+
+.reviews .review_box{
+    width: 95%;
+    height: 50vh;
+    margin: 15px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reviews .review_box .review_card{
+    width: 400px;
+    height: 400px;
+    box-shadow: 0 0 8px #f1f507;
+    padding:  15px;
+    margin: 0 12px;
+}
+
+.reviews .review_box .review_card i{
+    float: right;
+    font-size: 120px;
+    position: relative;
+    bottom: 20px;
+    color: #eaeaea;
+}
+
+.reviews .review_box .review_card .card_top img{
+    width: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.reviews .review_box .review_card .card p{
+    margin: 10px 0 10px 0;
+    text-align: justify;
+    line-height: 22px;
+}
+
+.reviews .review_box .review_card .card .review_icon i{
+    font-size: 16px;
+    float: left;
+    margin-top: 20px;
+    color: #f1f507;
+    padding: 0 1px;
+}
+
+/* Banner */
+
+.banner{
+    width: 100%;
+    height: 50vh;
+    background-image: url(data:image/jpeg;base64,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);
+    background-size: cover;
+    background-position: center;
+}
+
+.banner .banner_btn{
+    padding: 8px 20px;
+    background: #f1f507;
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    top: 70%;
+    left: 7%;
+}
+
+/* Footer */
+
+footer{
+    width: 100%;
+    background: #eaeaea;
+}
+
+footer .footer_main{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .footer_main .tag{
+    margin: 10px 0;
+}
+
+/* footer .footer_main .tag img{
+    width: 100px;
+    margin-bottom: 10px;
+} */
+
+footer .footer_main .tag p{
+    width: 250px;
+    line-height: 22px;
+    text-align: justify;
+}
+
+footer .footer_main .tag h1{
+    font-size: 25px;
+    margin: 25px 0;
+    color: #000;
+}
+
+footer .footer_main .tag a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+footer .footer_main .tag i{
+    margin-right: 10px;
+}
+
+footer .footer_main .tag .social_link i{
+    margin: 0 5px;
+}
+
+
+
